@@ -1,6 +1,6 @@
-# NovelSeek - When Agent Becomes the Scientist – Building Closed-Loop System from Hypothesis to Verification
+# GeniX - When Agent Becomes the Scientist – Building Closed-Loop System from Hypothesis to Verification
 
-[[ Paper 📓 ]](https://arxiv.org/abs/2505.16938) [[ Website 🏠 ]](https://alpha-innovator.github.io/NovelSeek-project-page) [[ NovelSeek Examples 🤗 ]](https://huggingface.co/U4R/GeniX)
+[[ Paper 📓 ]](https://arxiv.org/abs/2505.16938) [[ Website 🏠 ]](https://alpha-innovator.github.io/GeniX-project-page) [[ GeniX Examples 🤗 ]](https://huggingface.co/U4R/GeniX)
 
 <i>
 From One Idea to Autonomous Experimentation
@@ -13,17 +13,17 @@ From One Idea to Autonomous Experimentation
 
 ## 📖 Overview
 
-![NovelSeek](/images/novelseek.png)
+![GeniX](/images/genix_showcase.png)
 
-NovelSeek can support **12** types of scientific research tasks ranging from the AI field to the science field, including reaction yield prediction, molecular dynamics, power flow estimation, time series forecasting, transcription prediction, enhancer activity prediction, sentiment classification, 2D image classification, 3D point classification, 2D semantic segmentation, 3D autonomous driving, large vision-language model fine-tuning.
+GeniX can support **12** types of scientific research tasks ranging from the AI field to the science field, including reaction yield prediction, molecular dynamics, power flow estimation, time series forecasting, transcription prediction, enhancer activity prediction, sentiment classification, 2D image classification, 3D point classification, 2D semantic segmentation, 3D autonomous driving, large vision-language model fine-tuning.
 
 ## 🌟 Core Features
 
-![Framework](/images/framework.png)
+![Framework](/images/genix_framework.png)
 
-NovelSeek covers three main capabilities: (1) **Self-evolving idea generation with human-interactive feedback**, (2) **Idea-to-methodology construction**, and (3) **Evolutionary experimental planning and execution**. 
+GeniX covers three main capabilities: (1) **Self-evolving idea generation with human-interactive feedback**, (2) **Idea-to-methodology construction**, and (3) **Evolutionary experimental planning and execution**. 
 
-NovelSeek is a unified, closed-loop multi-agent system designed to automate and accelerate innovative research across scientific domains. Through intelligent agent collaboration, NovelSeek enables **end-to-end automation** from idea generation and methodology construction to experimental execution, dramatically enhancing research efficiency and creativity.
+GeniX is a unified, closed-loop multi-agent system designed to automate and accelerate innovative research across scientific domains. Through intelligent agent collaboration, GeniX enables **end-to-end automation** from idea generation and methodology construction to experimental execution, dramatically enhancing research efficiency and creativity.
 
 ### 💡 Self-Evolving Idea Generation with Human-Interactive Feedback
 - Autonomous generation, selection, and evolution of innovative research ideas through multi-agent collaboration
@@ -47,7 +47,7 @@ NovelSeek is a unified, closed-loop multi-agent system designed to automate and 
 
 ---
 
-**NovelSeek** delivers an "end-to-end algorithmic innovation", empowering AI+X researchers to rapidly complete the full research loop—from idea to methodology to experimental validation—accelerating scientific discovery and breakthroughs.
+**GeniX** delivers an "end-to-end algorithmic innovation", empowering AI+X researchers to rapidly complete the full research loop—from idea to methodology to experimental validation—accelerating scientific discovery and breakthroughs.
 
 ## 🔬 Supported Research Tasks
 
@@ -69,5 +69,5 @@ NovelSeek is a unified, closed-loop multi-agent system designed to automate and 
 
 ## 🚀 Performance
 
-By leveraging multi-source knowledge injection, NovelSeek intelligently generates and verifies research ideas across multiple domains. Our system has significantly improved research efficiency in Suzuki Yield Prediction, Enhancer Activity Prediction, Transcription Prediction for Perturbation Respons, and so on.
+By leveraging multi-source knowledge injection, GeniX intelligently generates and verifies research ideas across multiple domains. Our system has significantly improved research efficiency in Suzuki Yield Prediction, Enhancer Activity Prediction, Transcription Prediction for Perturbation Respons, and so on.
 
