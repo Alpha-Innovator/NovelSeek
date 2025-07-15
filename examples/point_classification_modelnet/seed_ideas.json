@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "hierarchical_feature_extraction",
+        "Title": "Hierarchical Set Abstraction: Learning Global and Local features of point clouds",
+        "Motivation": "Point-cloud analysis requires both global shape understanding and fine-grained local detail. Existing methods often focus on one at the expense of the other.",
+        "Method": "Our pipeline stacks multiple Set Abstraction (SA) and Feature Propagation (FP) modules. Each SA uses FPS sampling and ball-query grouping followed by MLPs to encode local geometry, with a global feature injected at the deepest layer via attention. FP modules then upsample and fuse features through skip-connections. The fused multi-scale features feed into a classification head.",
+        "Experiment": "In this experiment, we compare the performance of different feature extraction networks, especially considering both gloabl and local features",
+        "Summary": "Propose a hierarchical set abstraction method to effectively integrate global and local features",
+        "Feasibility": 9,
+        "Novelty": 6
+    }
+]

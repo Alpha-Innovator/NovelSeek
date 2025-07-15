@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "attention_image_classification",
+        "Title": "AttentionCNN: Injecting CNN with Self-Attention",
+        "Motivation": "Convolutional networks excel at capturing local patterns but struggle with long-range dependencies, while self-attention models global context but lacks strong local inductive bias. Combining both can yield richer image representations.",
+        "Method": "We integrate multi-head self-attention modules into a standard CNN backbone. After each convolutional block, feature maps are flattened and processed by self-attention with positional encodings, then reshaped and fused via residual connections. This design preserves convolutional locality while enabling global feature interaction.",
+        "Experiment": "In this experiment, we compare the performance of different image classification networks, especially considering using self-attention to model lont-short term relations in the image",
+        "Summary": "Combine CNN and self-attention to consider both local and global relations in images",
+        "Feasibility": 9,
+        "Novelty": 6
+    }
+]

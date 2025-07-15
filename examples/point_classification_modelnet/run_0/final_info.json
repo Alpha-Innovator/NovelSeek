@@ -1,0 +1,9 @@
+{
+    "modelnet40":{
+        "means":{
+            "best_oa": 91.0,
+            "best_acc": 89.2,
+            "epoch": 120
+        }
+    }
+}

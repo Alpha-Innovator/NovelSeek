@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "group_convolution_bert",
+        "Title": "Injecting BERT with group convolution",
+        "Motivation": "BERT's attention blocks rely on heavy fully-connected layers, leading to high computational and memory costs. Replacing them with group convolution can reduce parameters and speed up inference without sacrificing representational power.",
+        "Method": "We substitute the projection layers in each self-attention head with group convolutions. Features are split into groups, convolved with small kernels, then fed into the standard attention and normalization pipeline. This reduces parameter count and computation while maintaining accuracy.",
+        "Experiment": "In this experiment, we compare the performance of different sentiment classification networks, especially considering using group convolution instead of fully connect layer in the attention block in BERT",
+        "Summary": "Combine group convolution and BERT to improve the efficiency of BERT",
+        "Feasibility": 9,
+        "Novelty": 6
+    }
+]
