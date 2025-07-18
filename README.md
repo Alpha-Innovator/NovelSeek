@@ -71,6 +71,30 @@ NovelSeek is a unified, closed-loop multi-agent system designed to automate and 
 
 By leveraging multi-source knowledge injection, NovelSeek intelligently generates and verifies research ideas across multiple domains. Our system has significantly improved research efficiency in Suzuki Yield Prediction, Enhancer Activity Prediction, Transcription Prediction for Perturbation Respons, and so on.
 
+## 🚀 How to use the early version of NovelSeek, Dolphin?
+
+### Installation
+
+```
+conda create -n dolphin python=3.11
+conda activate dolphin
+
+# Install PyPI requirements
+pip install -r requirements.txt
+```
+
+### Start Auto-Research using Dolphin
+
+```shell
+bash launch_dolphin.sh
+
+# modify launch_dolphin.py line # line 189 if round > 0
+# exp_base_file_list = [List your exp dir] 
+```
+
+- Note that you need to add api_key and specify the model and topic in `launch_dolphin.sh`. You can refer to the [doc](./docs/ollama_doc.md) if you want to use self-deployed model.
+- Data for Point Classfication, Image Classification, and Sentiment Classification tasks can be downloaded [here](https://drive.google.com/drive/folders/1mq1y7EWW9dgPlS26hXNa3wxL7_2vvNju?usp=sharing).
+
 ## Citation
 ```
 @article{team2025novelseek,
